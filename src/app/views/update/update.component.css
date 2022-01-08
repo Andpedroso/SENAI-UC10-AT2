@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.pagina_geral
+{
+    background-color: #fdf063;
+    padding: 20px;
+}
+
+h1
+{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Trirong', serif;
+}
+
+.atualizar_user
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: #fded00;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 60px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+button
+{
+    background-color: #63a355;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 200px;
+}

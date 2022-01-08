@@ -1,0 +1,21 @@
+<div class="banner">
+    <h1>Produtos</h1>
+    <table *ngIf='responseProdutos' >
+        <thead>
+            <td>Nome</td>
+            <td>Descrição</td>
+            <td>Quantidade</td>
+            <td>Disponibilidade</td>
+            <td>Comprar</td>
+        </thead>
+        <tbody>
+            <tr *ngFor='let produtos of responseProdutos'>
+                <td>{{produtos.titulo}}</td>
+                <td>{{produtos.descricao}}</td>
+                <td>{{produtos.qtd}}</td>
+                <td>{{produtos.disponibilidade}}</td>
+                <td class="alterar_tabela" routerLink="/comprar/{{produtos.id}}" >Comprar</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

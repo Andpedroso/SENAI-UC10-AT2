@@ -1,0 +1,36 @@
+<div class="pagina_geral">
+    <h1>Atualizar Usuário</h1>
+    
+    <div class="atualizar_user" *ngIf='request' >
+        <label>Nome:
+            <input placeholder="Insira o nome" [(ngModel)]="request.name" >
+        </label>
+        <br><br>
+        <label>Sobrenome:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.sobrenome" >
+        </label>
+        <br><br>
+        <label>Idade:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.idade" >
+        </label>
+        <br><br>
+        <label>Estado Civil:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.estadocivil" >
+        </label>
+        <br><br>
+        <label>Celular:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.celular" >
+        </label>
+        <br><br>
+        <label>Profissão:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.vaga" >
+        </label>
+        <br><br>
+        <label>E-mail:
+            <input placeholder="Insira o E-mail" [(ngModel)]="request.email" >
+        </label>
+        <br><br>
+        <button (click)="atualizar()" >Atualizar</button>
+        <button (click)="cancelar()" >Cancelar</button>
+    </div>
+</div>

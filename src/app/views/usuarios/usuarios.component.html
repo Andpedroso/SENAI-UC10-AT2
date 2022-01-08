@@ -1,0 +1,29 @@
+<div class="banner">
+    <h1>Usuários</h1>
+    <table *ngIf='responseUsers'>
+        <thead>
+            <td>Nome</td>
+            <td>Sobrenome</td>
+            <td>Idade</td>
+            <td>Estado Civil</td>
+            <td>Celular</td>
+            <td>Profissão</td>
+            <td>E-mail</td> 
+            <td>Atualizar</td>  
+            <td>Deletar</td> 
+        </thead>
+        <tbody>
+            <tr *ngFor='let user of responseUsers' >
+                <td>{{user.name}}</td>
+                <td>{{user.sobrenome}}</td>
+                <td>{{user.idade}}</td>
+                <td>{{user.estadocivil}}</td>
+                <td>{{user.celular}}</td>
+                <td>{{user.vaga}}</td>
+                <td>{{user.email}}</td>
+                <td class="alterar_tabela" routerLink="/update/{{user.id}}" >Editar</td>
+                <td class="alterar_tabela2" routerLink="/delete-user/{{user.id}}" >Remover</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

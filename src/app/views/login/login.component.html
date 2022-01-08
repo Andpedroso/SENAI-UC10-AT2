@@ -1,0 +1,15 @@
+<main>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit()" >
+        <div class="campo_label">
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" placeholder="email@email.com" required [(ngModel)]="loginModel.email" >
+        </div>
+        <div class="campo_label" >
+            <label for="senha">Senha</label>
+            <input type="password" name="password" id="senha" placeholder="Digite sua senha." required [(ngModel)]="loginModel.password" >
+        </div>
+        <button type="submit" >Logar</button>
+    </form>
+    <p *ngIf='mensagem' >{{mensagem}}</p>
+    <p *ngIf='mensagem2' >{{mensagem2}}</p>
+</main>

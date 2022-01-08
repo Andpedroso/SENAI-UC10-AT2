@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Trirong:wght@600&display=swap');
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #dac80f;
+    padding: 20px;
+}
+
+footer a
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h2
+{
+    font-size: 40px;
+    font-family: 'Trirong', serif;
+    text-transform: uppercase;
+}
+
+.paginas_footer
+{
+    display: flex;
+    flex-direction: column;
+    
+}

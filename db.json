@@ -1,0 +1,173 @@
+{
+  "produtos": [
+    {
+      "titulo": "Título1",
+      "descricao": "Descrição1",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 1
+    },
+    {
+      "titulo": "Título2",
+      "descricao": "Descrição2",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 2
+    },
+    {
+      "titulo": "Título3",
+      "descricao": "Descrição3",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 3
+    },
+    {
+      "titulo": "Título4",
+      "descricao": "Descrição4",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 4
+    },
+    {
+      "titulo": "Título5",
+      "descricao": "Descrição5",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 5
+    },
+    {
+      "titulo": "Título6",
+      "descricao": "Descrição6",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 6
+    },
+    {
+      "titulo": "Título7",
+      "descricao": "Descrição7",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 7
+    },
+    {
+      "titulo": "Título8",
+      "descricao": "Descrição8",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 8
+    },
+    {
+      "titulo": "Título9",
+      "descricao": "Descrição9",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 9
+    },
+    {
+      "titulo": "Título10",
+      "descricao": "Descrição10",
+      "qtd": "1",
+      "disponibilidade": "Disponível",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "email": "ankpedroso@gmail.com",
+      "password": "$2a$10$1AQTLGwg2Na4RoTUQ1VgnOvhobOdkkn6S3XQ4GQsDq29WN3eLmY.a",
+      "id": 1
+    },
+    {
+      "email": "apedroso@gmail.com",
+      "password": "$2a$10$ghEv529mZCB1sfA7rVSc..m.PxmU4gbDdDvnigkW0elwax2oyHvl6",
+      "id": 2
+    },
+    {
+      "email": "andmpedroso@outlook.com",
+      "password": "$2a$10$Si4FXllAkj2KH38bf5a2PegxBpdZJO6nAGPJApN.JiOpWeWGlp3dO",
+      "id": 3
+    }
+  ],
+  "user": [
+    {
+      "name": "André",
+      "sobrenome": "Pedroso",
+      "idade": "35",
+      "estadocivil": "Solteiro",
+      "celular": "19971694388",
+      "vaga": "Desenvolvedor Web",
+      "email": "ankpedroso@gmail.com",
+      "id": 1
+    },
+    {
+      "name": "André",
+      "sobrenome": "Moura",
+      "idade": "25",
+      "estadocivil": "Casado",
+      "celular": "",
+      "vaga": "Psicólogo",
+      "email": "andmpedroso@outlook.com",
+      "id": 2
+    },
+    {
+      "name": "André",
+      "sobrenome": "Belmont",
+      "idade": "21",
+      "estadocivil": "Solteiro",
+      "celular": "",
+      "vaga": "Vampire Killer",
+      "email": "",
+      "id": 3
+    },
+    {
+      "name": "André",
+      "sobrenome": "Pedroso",
+      "idade": "18",
+      "estadocivil": "Solteiro",
+      "celular": "",
+      "vaga": "Desenhista Técnico de AutoCad",
+      "email": "ankpedroso@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "André",
+      "sobrenome": "Pedroso",
+      "idade": "31",
+      "estadocivil": "Solteiro",
+      "celular": "",
+      "vaga": "Pesquisador de Biologia",
+      "email": "ankpedroso@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "André",
+      "sobrenome": "Moura",
+      "idade": "16",
+      "estadocivil": "Solteiro",
+      "celular": "19971694388",
+      "vaga": "Estudante",
+      "email": "ankpedroso@gmail.com",
+      "id": 6
+    },
+    {
+      "name": "Marta",
+      "sobrenome": "Pedroso",
+      "idade": "27",
+      "estadocivil": "Casada",
+      "celular": "",
+      "vaga": "Pesquisadora",
+      "email": "",
+      "id": 7
+    },
+    {
+      "name": "Valdemar",
+      "sobrenome": "Pedroso",
+      "idade": "65",
+      "estadocivil": "Casado",
+      "celular": "",
+      "vaga": "Aposentado",
+      "email": "",
+      "id": 8
+    }
+  ]
+}

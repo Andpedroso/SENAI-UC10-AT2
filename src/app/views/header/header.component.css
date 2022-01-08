@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&family=Trirong:wght@600&display=swap');
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #dac80f;
+}
+
+header img
+{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+.menu
+{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 1200px)
+{
+    .menu a
+    {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 890px)
+{
+    .menu a
+    {
+        margin: 0;
+    }
+
+    .menu
+    {
+        flex-direction: column;
+    }
+}

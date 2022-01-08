@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+.banner
+{
+    background-color: #fdf063;
+    padding: 20px;
+}
+
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Trirong', serif;
+}
+
+table
+{
+    width: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+table thead
+{
+    background-color: #fded00;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table tbody
+{
+    background-color: #fdee2f;
+}
+
+.alterar_tabela
+{
+    background-color: #63a355;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.alterar_tabela2
+{
+    background-color: red;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+table td
+{
+    border: 1px solid;
+}

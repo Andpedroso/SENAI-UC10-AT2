@@ -1,0 +1,62 @@
+<div class="pagina_geral" >
+    <h1>Criar Usuário para Contato</h1>
+    <div class="formulario">
+        <label>Nome:
+            <input placeholder="Insira o nome" [(ngModel)]="request.name" >
+        </label>
+        <br>
+        <label>Sobrenome:
+            <input placeholder="Insira o sobrenome" [(ngModel)]="request.sobrenome" >
+        </label>
+        <br>
+        <label>Idade:
+            <input placeholder="Insira sua idade" [(ngModel)]="request.idade" >
+        </label>
+        <br>
+        <label>Estado Civil:
+            <input placeholder="Insira seu estado civil" [(ngModel)]="request.estadocivil" >
+        </label>
+        <br>
+        <label>Celular:
+            <input placeholder="Insira seu celular" [(ngModel)]="request.celular" >
+        </label>
+        <br>
+        <label>Profissão:
+            <input placeholder="Insira sua profissão" [(ngModel)]="request.vaga" >
+        </label>
+        <br>
+        <label>E-mail:
+            <input placeholder="Insira o E-mail" [(ngModel)]="request.email" >
+        </label>
+        <br>
+        <button (click)="save()" >Cadastrar</button>
+    </div>
+    <br><br>
+    <h1>Criar Usuário para Login</h1>
+    <div class="formulario">
+        <label>E-mail:
+            <input type="email" placeholder="Insira o E-mail" [(ngModel)]="request2.email" >
+        </label>
+        <br>
+        <label>Senha:
+            <input type="password" placeholder="Insira a Senha" [(ngModel)]="request2.password" >
+        </label>
+        <br>
+        <button (click)="save2()" >Cadastrar</button>
+    </div>
+    <br><br>
+    <div  class="resposta" *ngIf="response" >
+        <strong><h2>Criado com sucesso!</h2></strong><br>
+        <label>Nome: {{response.name}}</label><br>
+        <label>Sobrenome: {{response.sobrenome}}</label><br>
+        <label>Idade: {{response.idade}}</label><br>
+        <label>Estado civil: {{response.estadocivil}}</label><br>
+        <label>Celular: {{response.celular}}</label><br>
+        <label>Profissão: {{response.vaga}}</label><br>
+        <label>E-mail: {{response.email}}</label><br>
+        <label>Id: {{response.id}}</label>
+    </div>
+    <div  class="resposta" *ngIf="response2" >
+        <strong><h2>Criado com sucesso!</h2></strong>
+    </div>
+</div>
